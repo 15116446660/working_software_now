@@ -14,7 +14,7 @@ To create your project:
 2. Enter the following command:
 
 ```
-ApiLogicServer create project_name=.  # include the period - it designates the current directory
+ApiLogicServer create --project_name=.  # include the period - it designates the current directory
 ```
 
 You will then be asked to supply the `db_url`
