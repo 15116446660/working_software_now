@@ -1,26 +1,34 @@
-# API Logic Server
+# Welcome to API Logic Server
 
 
 <figure><img src="https://github.com/valhuber/ApiLogicServer/blob/main/images/creates-and-runs.png?raw=true"></figure>
 
 
-Welcome to ApiLogicServer.
 
-This is an empty project, pre-configure for the ApiLogicServer Docker container.
+## Create
+You are currently in an empty project, pre-configured for the ApiLogicServer Docker container
+(note the `.devcontainer` and `Dockerfile`).
 
-To create your project, open a terminal window:
+To create your project:
+1. Open a terminal window
+2. Enter the following command:
+
 ```
-ApiLogicServer create project-name=.  # include the period - it designates the current directory
+ApiLogicServer create project_name=.  # include the period - it designates the current directory
 ```
 
-You will be asked to supply the `db_url`.
-* Press RETURN to use the sample project (a pre-installed database), or
-* Provide your own db_url (for examples, try `ApiLogicServer examples`)
+You will then be asked to supply the `db_url`
+* Press RETURN to use the sample project
 
-The project will be created in your current directory.
+The project will be created in your current directory (e.g, `working_software_now`).
 
-Use the created launch configurations to start the API or the Basic Web App.
+### Using your own database
+After you have explored the sample, try it with your own database by specifying an appropriate `db_url`.   For examples, enter the Terminal command: 
+```
+ApiLogicServer examples
+```
+
+## Run
+To run your project, use the created launch configurations to start the API or the Basic Web App.
 
 > If you are using your own database, you will need to [configure the Web App](https://github.com/valhuber/ApiLogicServer/wiki/Working-with-Flask-AppBuilder).
-
-
