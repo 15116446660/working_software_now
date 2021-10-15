@@ -1,13 +1,11 @@
 # Welcome to API Logic Server
 
-
-<figure><img src="https://github.com/valhuber/ApiLogicServer/blob/main/images/creates-and-runs.png?raw=true"></figure>
-
-
-
-## Create
 You are currently in an empty project, pre-configured for the ApiLogicServer Docker container
 (note the `.devcontainer` and `Dockerfile`).
+
+&nbsp;
+
+## Create
 
 To create your project:
 1. Open a terminal window
@@ -27,8 +25,26 @@ After you have explored the sample, try it with your own database by specifying 
 ```
 ApiLogicServer examples
 ```
+&nbsp;
 
 ## Run
 To run your project, use the created launch configurations to start the API or the Basic Web App.
 
 > If you are using your own database, you will need to [configure the Web App](https://github.com/valhuber/ApiLogicServer/wiki/Working-with-Flask-AppBuilder).
+
+
+
+&nbsp;&nbsp;
+# Overview
+
+ApiLogicServer creates database api projects:
+
+* Created projects are instantly executable, providing a database API and a web app
+
+* Customize the projects in an IDE such as VS Code
+
+   * In particular, use VS Code to create logic using spreadsheet-like rules
+
+* Created projects utilize Python from the container, eliminating the need to install Python
+
+<figure><img src="https://github.com/valhuber/ApiLogicServer/blob/main/images/creates-and-runs.png?raw=true"></figure>
