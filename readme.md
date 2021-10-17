@@ -1,6 +1,6 @@
 # Welcome to API Logic Server
 
-You are currently in an empty project, pre-configured for the [ApiLogicServer[(https://github.com/valhuber/ApiLogicServer/blob/main/README.md) Docker container
+You are currently in an empty project, pre-configured for the [ApiLogicServer](https://github.com/valhuber/ApiLogicServer/blob/main/README.md) Docker container
 (note the `.devcontainer` and `Dockerfile`).
 
 &nbsp;
